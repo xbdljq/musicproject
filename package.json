@@ -1,0 +1,26 @@
+{
+  "name": "musicproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbdljq/musicproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xbdljq/musicproject/issues"
+  },
+  "homepage": "https://github.com/xbdljq/musicproject#readme",
+  "dependencies": {
+    "leancloud-realtime": "^4.2.1",
+    "leancloud-storage": "^3.11.1",
+    "plupload": "^2.3.2",
+    "qiniu": "^7.2.1",
+    "qiniu-js": "^1.0.22"
+  }
+}
