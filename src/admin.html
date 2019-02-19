@@ -36,6 +36,7 @@
             </div>
         </aside>
         <main>
+            <!-- <h1>新建歌曲</h1>
             <form class="form">
                 <div class="row">
                     <label for="">
@@ -61,18 +62,9 @@
                 <div class="row actions">
                     <button type="submit">保存</button>
                 </div>
-            </form>
+            </form> -->
         </main>
     </div>
-    <!-- <div id="uploadContainer">
-
-        <button id="uploadButton">点击我上传文件</button>
-    </div>
-    <div id="uploadStatus"></div>
-    <div style="border:1px solid red;height:200px">
-        <audio controls src="http://pmy3uthhg.bkt.clouddn.com/Bruno%20Coulais%20-%20Vois%20Sur%20Ton%20Chemin.mp3"></audio>
-
-    </div> -->
 
     <!-- 存储服务 -->
     <script src="./../node_modules/leancloud-storage/dist/av-min.js"></script>
@@ -96,6 +88,9 @@
             appKey: APP_KEY
         });
     </script>
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/song-form.js"></script>
+    <script src="./js/new-song.js"></script>
     <script>
         console.log("----")
         var uploader = Qiniu.uploader({
